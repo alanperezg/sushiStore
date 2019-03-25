@@ -1,0 +1,62 @@
+body {
+    background-color: #555;
+  }
+  
+  .navbar-fixed {
+    position: absolute;
+    z-index: 999999999;
+  }
+    
+  /*** A E S T H E T I C S ***/
+  /***************************/
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #333;
+    color: white;
+  }
+  
+   .callout {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+  }
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+ 

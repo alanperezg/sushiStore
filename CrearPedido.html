@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DeyuoDeyuo</title>
+    <link rel="icon" type="image/x-icon" href="./img/sushi-filled.png">
+
+    <!---Local Library CSS --->
+    <link rel="stylesheet" href="./css/CssStyleUsers.css" type="text/css">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css'>
+     <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+   
+</head>
+<body>
+        <div class="navbar-fixed">
+                <nav class="transparent z-depth-0">
+                  <div class="nav-wrapper" >
+                    <div class="row" >
+                      <div class="col s12" >
+                        <a href="" class="brand-logo left" target="_blank">
+                            <img src="./img/logo2.png" width="100px" height="100px" alt="">
+                        </a>
+                        <ul class="right">
+                          <li><a href="" target="_blank"><i class="fas fa-utensils"> Menu</i></a></li>
+                          <li><a href="" target="_blank"><i class="fas fa-blender-phone"> Contacto</i></a></li>
+                          <li><a class="dropdown-button waves-effect waves-light white-text" href="#" data-activates="profile-dropdown"><i class="fas fa-user-circle mdi-navigation-arrow-drop-down right"> Usuario</i></a></li>
+                          <ul id="profile-dropdown" class="dropdown-content">
+                              <li><a href="#"><i class="material-icons">person</i>Profile</a></li>
+                              <li><a href="#"><i class="material-icons">settings</i>Setting</a></li>
+                              <li><a href="#"><i class="material-icons">help</i>Help</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#"><i class="material-icons">exit_to_app</i>Logout</a></li>
+                          </ul>
+                          <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+                        </ul>
+
+                        <ul class="side-nav grey darken-2" id="mobile-demo">
+                            <li class="sidenav-header blue">
+                                <div class="row">
+                                  <div class="col s4">
+                                      <img src="https://gravatar.com/avatar/961997eb7fd5c22b3e12fb3c8ca14e11?s=80&d=https://codepen.io/assets/avatars/user-avatar-80x80-bdcd44a3bfb9a5fd01eb8b86f9e033fa1a9897c3a15b33adfc2649a002dab1b6.png" width="48px" height="48px" alt="" class="circle responsive-img valign profile-image">
+                                  </div>
+                                  <div class="col s8">
+                                      <div>Manuel Valderrama</div>
+                                      <div>Manu@msx.xom</div>
+                                  </div>
+                                </div>
+                              </li>
+                              
+                              <li class="white"><a href="#" class="waves-effect waves-blue"><i class="material-icons">dialpad</i> Mis pedidos</a></li>
+                              <li class="white"><a href="#" class="waves-effect waves-blue"><i class="material-icons">dialpad</i> Crear pedido</a></li>
+                              <li class="white"><a href="#" class="waves-effect waves-blue"><i class="material-icons">dialpad</i> Guía de pedido</a></li>
+                            
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+        </div>
+
+        <div class="callout">
+<div class="cont-info-product"><div class="product-toppings-content"><div class="info-product-modal">
+    <div class="media-left align-self-center mr-3">
+            <img src="./img/sushi.jpg" width="150px" height="150px" alt="" style="border-radius: 60px;">
+            
+    </div>
+    <div class="media-body"><h2 id="product-view-name">Sushi Empanizado</h2></div>
+    <p id="product-view-description"> Nuestro tradicional crujiente empanizado </p>
+</div><!----><div class="product-toppings-list-content ng-star-inserted"><app-product-toppings toppings=""><!----><div class="relative ng-star-inserted"><h3 class="topping-description" title="Agrega proteína para tu shushi">Agrega proteína para tu shushi</h3><!----><span class="required ng-star-inserted">Obligatorio Surimi</span><div class="topping-content"><!----><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-radio" id="topping-125034"><label><!----><i class="far fa-square"></i><!----><span class="not-price ng-star-inserted" id="radio-topping-name-125034"> Camarón </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-116971"> +$10.00 </span><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-radio" id="topping-125036"><label><!----><i class="far fa-square"></i><!----><span class="not-price ng-star-inserted" id="radio-topping-name-125036"> Pollo </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-116971"> +$10.00 </span><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-radio" id="topping-125037"><label><!----><i class="far fa-square"></i><!----><span class="not-price ng-star-inserted" id="radio-topping-name-125037"> Res </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-116971"> +$10.00 </span><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-radio" id="topping-125038"><label><!----><i class="far fa-square"></i><!----><span class="not-price ng-star-inserted" id="radio-topping-name-125038"> Sin proteína </span><!----><!----></label></div></app-product-topping-item></div></div></div><div class="relative ng-star-inserted"><h3 class="topping-description" title="Porciones extras">Porciones extras</h3><!----><div class="topping-content"><!----><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-116965"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-116965" class="ng-star-inserted"> Sake Pika </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-116965"> +$38.00 </span><!----><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-116966"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-116966" class="ng-star-inserted"> Tampico </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-116966"> +$26.00 </span><!----><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-116967"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-116967" class="ng-star-inserted"> Masago  </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-116967"> +$41.00 </span><!----><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-116968"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-116968" class="ng-star-inserted"> Yoshi </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-116968"> +$48.00 </span><!----><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-116969"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-116969" class="ng-star-inserted"> Kanikama </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-116969"> +$38.00 </span><!----><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-116970"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-116970" class="ng-star-inserted"> Manchego </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-116970"> +$21.00 </span><!----><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-116971"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-116971" class="ng-star-inserted"> Carne de Anguila </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-116971"> +$35.00 </span><!----><!----></label></div></app-product-topping-item></div></div></div><div class="relative ng-star-inserted"><h3 class="topping-description" title="Complementa tus sushis">Complementa tus sushis</h3><!----><div class="topping-content"><!----><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-189378"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-189378" class="ng-star-inserted"> Aguacate por Fuera </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-189378"> +$28.00 </span><!----><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-189379"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-189379" class="ng-star-inserted"> Philadelphia por Fuera </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-189379"> +$33.00 </span><!----><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-189380"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-189380" class="ng-star-inserted"> Manchego Gratinado </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-189380"> +$21.00 </span><!----><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-189381"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-189381" class="ng-star-inserted"> Masago por Dentro </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-189381"> +$26.00 </span><!----><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-189382"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-189382" class="ng-star-inserted"> Pepino por Fuera </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-189382"> +$7.00 </span><!----><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-189383"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-189383" class="ng-star-inserted"> Extra Empanizado </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-189383"> +$12.00 </span><!----><!----></label></div></app-product-topping-item></div><div class="input-radio ng-star-inserted"><app-product-topping-item><div class="topping-restaurant rest-checkbox" id="topping-189384"><label class="checkbox"><!----><i class="far fa-square"></i><!----><span id="checkbox-topping-name-189384" class="ng-star-inserted"> Carne de Anguila </span><!----><span class="price ng-star-inserted" id="checkbox-topping-price-189384"> +$35.00 </span><!----><!----></label></div></app-product-topping-item></div><!----><div class="topping-content topping-instructions ng-star-inserted"><h3 class="topping-description">Instrucciones Adicionales</h3><div class="row"><textarea cols="30" id="comments" rows="10" placeholder="Personaliza tu pedido" class="ng-untouched ng-pristine ng-valid">              </textarea></div></div></div><!----><app-product-operator operator="" class="ng-star-inserted"><div class="product-operator-footer"><app-counter-product-light><div class="counter-product-light"><button class="subtract" disabled="">-</button><div> 1</div><button>+</button></div></app-counter-product-light><div class="button-add"><button class="btn btn-red-gradient button-loading loading" id="button-product-add-by-store" type="button" disabled=""> Agregar <small>$108.00</small></button></div></div></app-product-operator><!----></div>
+
+</div>
+
+<div class="fixed-action-btn"><a class="btn-floating btn-large red" href="#"><i class="large material-icons">chat</i></a></div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js'></script>
+<script src="./js/example.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+por el momento no se:
+Agregan todos los rollos,solo la vista
+Contacto:No se agrega aun la ubicacion hasta tenerla.
+Se agrega un carrusel con imagenes de como se mostraran las promociones.
+Basado en template.
